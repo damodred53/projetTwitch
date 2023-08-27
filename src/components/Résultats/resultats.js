@@ -61,7 +61,7 @@ function Resultats() {
         } 
         
         fetchStreams(); 
-    },[slug] );
+    },[slug, cleanSearch] );
         
     console.log(result)
     return (

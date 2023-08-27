@@ -52,7 +52,7 @@ function Live() {
         }
         
         fetchStreams(); 
-    }, []);
+    }, [slug]);
 
     
     return (
